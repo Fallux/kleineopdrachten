@@ -1,0 +1,28 @@
+body {
+    background-color: slateblue;
+    text-align: center
+}
+form{
+    display: inline-block;
+}
+input{
+    width: 120%;
+    height: 50px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 23px;
+    border-color: black;
+}
+input:nth-child(1){
+    background-color: violet;
+    width: 120%;
+    height: 50px;
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-color: black;
+}
+input:nth-child(1)::placeholder{
+    color: green;
+}
