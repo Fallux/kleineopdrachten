@@ -1,0 +1,36 @@
+body {
+    background-color: violet;
+    text-align: center
+}
+form{
+    display: inline-block;
+}
+input{
+    width: 120%;
+    height: 50px;
+    background-color: springgreen;
+    font-weight: bold;
+    font-size: 23px;
+    border-color: black;
+}
+input:nth-child(1){
+    background-color: slateblue;
+    width: 118.5%;
+    height: 50px;
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-color: black;
+}
+input:nth-child(1)::placeholder{
+    color: yellow;
+}
+#output{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
