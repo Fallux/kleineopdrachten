@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <title>Document</title>
 </head>
@@ -11,15 +7,12 @@
     <form action="" method="post">
         <input type="text" id="inputT" name="text" placeholder="Tekst">
         <input type="submit" value="submit" name="submit">
-        <div id="output">Hier moet tekst komen <br> </br>
+        <div id="output"> <br>
         <?php
-        
+        if ($_POST['submit']!= '') {
+            echo $_POST['text'];
+        }
         ?>
-
-
-
-
-
         </div>
     </form>
 </body>

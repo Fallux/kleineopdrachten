@@ -15,7 +15,7 @@ input{
 }
 input:nth-child(1){
     background-color: slateblue;
-    width: 118.5%;
+    width: 120%;
     height: 50px;
     margin-top: 250px;
     text-align: center;
